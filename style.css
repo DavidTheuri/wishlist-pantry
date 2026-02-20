@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #fff;
+    margin-bottom: 3rem; 
+    background-color: black;
+}
+a{
+    color: #a3b18a;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+ 
+    
+}
+h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color:  #a3b18a;;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Rubik Distressed", system-ui;
+    letter-spacing: 2px;
+
+}}
