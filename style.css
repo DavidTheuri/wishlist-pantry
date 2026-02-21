@@ -34,7 +34,7 @@ nav ul {
 
 .wp-text {
     /* The Letters */
-    color: white;
+    color: #f9c7cf;
     font-family: "Ewert", serif;
     font-size: 30px;
     font-weight: bold;
@@ -47,7 +47,7 @@ nav ul {
 .wp-logo {
     width: 60px;
     height: 60px;
-    background-color: #f9c7cf; /* Matching your green theme */
+    background-color: #a55233; /* Matching your green theme */
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -80,15 +80,16 @@ h1 {
 p {
     font-family: "Barriecito", system-ui;
     font-size: 1.5rem;
-    color: black;
+    color: #a55233;
     letter-spacing: 1.5px;
 }
 h2{
     font-family: "Rubik Puddles", system-ui; /* Example font from your imports */
     font-size: 3.5rem;
-    color: #afc5ff;
+    color: white;
     margin-bottom: 10px;
     text-transform: uppercase;
+    letter-spacing: 5px;
 }
 .main{
     display: flex;
@@ -150,17 +151,14 @@ h2{
     color: #444;
     margin-bottom: 25px;
 }
-
-/* Highlighting the Conviction */
-.about-content strong {
-    color: #2d3436;
-    border-bottom: 2px dotted #d63031;
-}
-
 /* The artistic list */
 .philosophy-section ul {
     list-style: none;
-    padding-left: 0;
+    padding-left: 10;
+    font-family: "Barriecito", system-ui; /* Or a cleaner font if you prefer readability */
+    font-size: 1.15rem;
+    color: #444;
+    margin-bottom: 25px;
 }
 
 .philosophy-section li {
