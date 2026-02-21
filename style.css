@@ -3,8 +3,11 @@
     margin: 0;
     
 }
+body{
+        background-color: #455d7a;
+}
 a {
-    color: #a3b18a;
+    color: #8594e4;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
@@ -15,6 +18,7 @@ nav {
     justify-content: space-between;
     padding: 10px 40px; /* Added more side padding */
     width: 100%;
+    margin-bottom: 50px;
 }
 ul {
     display: flex;
@@ -43,7 +47,7 @@ ul {
 .wp-logo {
     width: 60px;
     height: 60px;
-    background-color: red; /* Matching your green theme */
+    background-color: #f9c7cf; /* Matching your green theme */
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -53,18 +57,17 @@ ul {
 
 
 .brand-container {
-    display: flex !important; /* Forces the flex behavior */
+    display: flex ; 
     flex-direction: row;      /* Ensures they stay side-by-side */
     align-items: center;      /* Vertically aligns the circle and the text */
     gap: 20px;                /* Space between circle and H1 */
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0;                /* Crucial: removes default block spacing */
     white-space: nowrap;      /* Prevents the title from wrapping to a second line */
-    font-family: "Rubik Distressed", system-ui;
-    color: #a3b18a;
+    color: white;
 }
 
 /* Cleanup for the links */
@@ -74,12 +77,36 @@ h1 {
     color: #a3b18a;
     font-weight: bold;
 }
-p {font-family: "Barriecito", system-ui;
-  font-weight: 400;
-  font-style: normal;
+p {
+    font-family: "Barriecito", system-ui;
+    font-size: 1.5rem;
+    color: #8dc6ff;
+    letter-spacing: 1px;
 }
 h2{
-      font-family: "Ewert", serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: 'Rubik Distressed', system-ui; /* Example font from your imports */
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Centers vertically */
+    align-items: center;     /* Centers horizontally */
+    min-height: 100vh;        /* Takes up 80% of the screen height */
+    text-align: center;
+
+}
+.description {
+    padding: 40px;
+    border: 2px solid black; /* Matches the "Pantry/Craft" vibe */
+    width: 100%;
+}
+ .title{
+    height: 20vh;
+    margin-bottom: 50px; 
+    display: flex;
+    align-items: center;
 }
