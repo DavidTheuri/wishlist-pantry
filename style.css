@@ -7,7 +7,7 @@ body{
         background-color: #455d7a;
 }
 a {
-    color: #8594e4;
+    color: #f5c7f7;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
@@ -86,7 +86,7 @@ p {
 h2{
     font-family: 'Rubik Distressed', system-ui; /* Example font from your imports */
     font-size: 3.5rem;
-    color: white;
+    color: #faf8d7;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
