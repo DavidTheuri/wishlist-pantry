@@ -7,7 +7,7 @@ body{
         background-color: #455d7a;
 }
 a {
-    color: #f5c7f7;
+    color: #eebbc3;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
@@ -20,7 +20,7 @@ nav {
     width: 100%;
     margin-bottom: 50px;
 }
-ul {
+nav ul {
     display: flex;
     list-style: none;
     align-items: center;
@@ -67,7 +67,7 @@ h1 {
     font-size: 2rem;
     margin: 0;                /* Crucial: removes default block spacing */
     white-space: nowrap;      /* Prevents the title from wrapping to a second line */
-    color: white;
+    color: #f1e7b6;
 }
 
 /* Cleanup for the links */
@@ -80,13 +80,13 @@ h1 {
 p {
     font-family: "Barriecito", system-ui;
     font-size: 1.5rem;
-    color: #8dc6ff;
+    color: black;
     letter-spacing: 1px;
 }
 h2{
     font-family: 'Rubik Distressed', system-ui; /* Example font from your imports */
     font-size: 3.5rem;
-    color: #faf8d7;
+    color: #afc5ff;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
@@ -95,14 +95,19 @@ h2{
     flex-direction: column;
     justify-content: flex-start; /* Centers vertically */
     align-items: center;     /* Centers horizontally */
-    min-height: 100vh;        /* Takes up 80% of the screen height */
+    min-height: 150vh;        /* Takes up 80% of the screen height */
     text-align: center;
 
 }
 .description {
-    padding: 40px;
+    padding: 10px;
     border: 2px solid black; /* Matches the "Pantry/Craft" vibe */
     width: 100%;
+    background-color: #cadefc;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+
 }
  .title{
     height: 20vh;
