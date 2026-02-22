@@ -222,7 +222,6 @@ nav ul li a.active {
     padding: 15px;
     border: none;
     border-radius: 30px;
-    font-family: 'Oi', cursive; /* Using your bold display font */
     font-size: 1rem;
     cursor: pointer;
     transition: transform 0.2s, background-color 0.2s;
