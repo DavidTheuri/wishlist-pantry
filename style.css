@@ -7,7 +7,7 @@ body{
         background-color: #455d7a;
 }
 a {
-    color: #eebbc3;
+    color: #a2a8d3;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
@@ -108,7 +108,7 @@ h2{
     border: 0.5px solid #a7bcb9 ; 
     width: 90%;             /* Use % so it's responsive */
     max-width: 800px;
-    background-color: #8dc6ff;
+    background-color: #a2a8d3;
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -170,8 +170,7 @@ nav ul li a.active {
     padding-bottom: 5px;
 }
 /* --- FORM & INPUT SECTION --- */
-
-#input-section {
+.input-section {
     background-color: #e4f1fe; /* Matching your cream/yellow about-card color */
     padding: 40px;
     border-radius: 20px;
@@ -180,6 +179,7 @@ nav ul li a.active {
     margin: 40px auto;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
     border: 2px solid #e4f1fe; /* Matching your logo circle color */
+    margin-bottom: 15rem;
 }
 
 #item-form {
@@ -196,7 +196,7 @@ nav ul li a.active {
 
 .input-group label {
     font-family: 'Moo Lah Lah', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #22313f;
     margin-bottom: 5px;
 }
@@ -208,7 +208,7 @@ nav ul li a.active {
     border-radius: 8px;
     font-family: Arial, sans-serif; /* Clean font for typing */
     font-size: 1rem;
-    background-color: #fffdf5;
+    background-color: #faf6e9;
 }
 
 .input-group textarea {
@@ -251,6 +251,7 @@ nav ul li a.active {
     font-family: 'Barriecito', cursive;
     font-size: 1.2rem;
     text-align: center;
+    margin-left:40px;
 }
 
 #category-search::placeholder {

@@ -18,7 +18,10 @@
             <span class="wp-text">WP</span>
         </a>
         <h1>Wishlist Pantry</h1>
-    </div>     
+    </div> 
+    <section id="filter-section">
+    <input type="text" id="category-search" placeholder="Search by category...">
+</section>    
     
     <ul>
         <li><a href="about.html">About</a></li>
@@ -38,28 +41,26 @@
             <li><p>Here, we honor the transformation that happens when you want something so badly it changes the very shape of who you are. Because whether the dream is caught or it fades, the person you became while reaching for it is the only result that truly matters.</p></li>
         </ul>
     </section>
-    <section class="description">   
-        <ul>
 
-            <li><p>You can use this website how you want but most preferably </p></li>
-            <li><p>We yearn, we imagine, we acquire, and we minimize—only to begin the cycle again. Wishlist Pantry is not a mere list; it is a sacred extension of your internal world. It is a space where the 'too much' is welcomed and the 'unachievable' is studied.</p></li>
-            <li><p>Here, we honor the transformation that happens when you want something so badly it changes the very shape of who you are. Because whether the dream is caught or it fades, the person you became while reaching for it is the only result that truly matters.</p></li>
-        </ul>
-    </section>
-<section id="input-section">
+    <section class="input-section">
     <form id="item-form">
         <div class="input-group">
-            <label for="itemName">Item Name</label>
+            <label for="itemName">Item Name:</label>
             <input type="text" id="itemName" placeholder="What is it called?" required>
         </div>
 
         <div class="input-group">
-            <label for="itemLink">Link to Item</label>
+            <label for="itemLink">Link to Item:</label>
             <input type="url" id="itemLink" placeholder="https://..." required>
         </div>
 
         <div class="input-group">
-            <label for="itemStandout">What stands out?</label>
+            <label for="price">Price:</label>
+            <input type="number" id="itemPrice" placeholder="Ksh ..." required>
+        </div>
+
+        <div class="input-group">
+            <label for="itemStandout">Why it stands out? / why you want it:</label>
             <textarea id="itemStandout" placeholder="Why is this special?"></textarea>
         </div>
 
@@ -77,12 +78,24 @@
     </form>
 </section>
 
-<section id="filter-section">
-    <input type="text" id="category-search" placeholder="Search by category...">
-</section>
+    <section class="description">   
+        <ul>
 
-<div id="item-container">
+            <li><p>This site is supposed in coloboration with other apps.Bookmark it .The next time you see an item you want to add to your wishlist for an easier find , add it to this site . Make it your shelf.</p></li>
+            <li><p>Fill in the details below in reference to your item . Also include why it stands out for you .i.e for an item like perfume you would say i like the pear note in this .Try to be more descriptive.</p></li>
+            <li><p>Make your item to enable other users who may already have the item to review to give you more insight. </p></li>
+            <li><p>Fill your username below to set up your profile.</p></li>
+        </ul>
+    </section>
+    <div id="item-container">
     </div>
+    <section class="input-section">
+        <form id="item-form">
+            <div class="input-group">
+                <label for="price">Username:</label>
+                <input type="text" id="itemPrice" placeholder="eg Kinut" required>
+            </div>
+    </section>
 
 
 
