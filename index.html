@@ -46,21 +46,43 @@
             <li><p>Here, we honor the transformation that happens when you want something so badly it changes the very shape of who you are. Because whether the dream is caught or it fades, the person you became while reaching for it is the only result that truly matters.</p></li>
         </ul>
     </section>
-     <section class="join ">
-        <!-- <div class="form-container">
-            <form id="join-wishlist">
-                <h3></h2>
+<section id="input-section">
+    <form id="item-form">
+        <div class="input-group">
+            <label for="itemName">Item Name</label>
+            <input type="text" id="itemName" placeholder="What is it called?" required>
+        </div>
 
-            <div class="input-group">
-                <input type="text" id="name" placeholder="Enter your first name" required maxlength="10">
-            </div>
-            <button type="submit" id="submit">Add destination</button>
-            <p id="message"></p>
-            
-        </form>
-    </div> -->
+        <div class="input-group">
+            <label for="itemLink">Link to Item</label>
+            <input type="url" id="itemLink" placeholder="https://..." required>
+        </div>
 
-     </section><hr>
+        <div class="input-group">
+            <label for="itemStandout">What stands out?</label>
+            <textarea id="itemStandout" placeholder="Why is this special?"></textarea>
+        </div>
+
+        <div class="input-group">
+            <label for="itemCategory">Category</label>
+            <input type="text" id="itemCategory" list="category-suggestions" placeholder="e.g., Tech, Decor, Books">
+            <datalist id="category-suggestions">
+                <option value="Tech">
+                <option value="Home">
+                <option value="Education">
+            </datalist>
+        </div>
+
+        <button type="submit" id="save-btn">Add to Collection</button>
+    </form>
+</section>
+
+<section id="filter-section">
+    <input type="text" id="category-search" placeholder="Search by category...">
+</section>
+
+<div id="item-container">
+    </div>
 
 
 
