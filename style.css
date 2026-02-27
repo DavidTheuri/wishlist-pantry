@@ -109,7 +109,7 @@ h2{
     border: 0.5px solid #a7bcb9 ; 
     width: 90%;             /* Use % so it's responsive */
     max-width: 800px;
-    background-color: #a2a8d3;
+    background-color: #f1e7b6;
     /* margin-top: 20px; */
     display: flex;
     align-items: center;
@@ -464,8 +464,10 @@ strong {
   }
 }
 .welcome-msg{
-    font-family: "Ewert", serif;
-    color: #a2a8d3;
+    /* font-family: "Ewert", serif; */
+    color: #f1e7b6;
     font-size: 40px;
 }
-
+.username{
+  gap: 15px;
+}
