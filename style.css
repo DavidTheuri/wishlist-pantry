@@ -471,3 +471,6 @@ strong {
 .username{
   gap: 15px;
 }
+#name-submit-btn{
+  margin-top: 30px; 
+}
